@@ -1,0 +1,37 @@
+.landling-body{
+    background-color: black;
+}
+.landing-page > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .landing-page > ul >  li {
+    display: inline;
+    padding: 10px 30px 10px 10px;
+  }
+  .landing-page > ul  > li > img{
+    width: 160px;
+
+  }
+  .landing-page > ul >  li > a{
+    text-decoration: none;
+    color: white;
+}
+.ululul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#mySidebar{
+    display: grid;
+    width: 25%;
+}
+#mySidebar > a{
+    text-decoration: none;
+    color: white;
+}
+.Mbody{
+    display: flex;
+}

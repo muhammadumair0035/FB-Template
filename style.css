@@ -86,6 +86,7 @@
 #mySidebar{
     display: grid;
     width: 25%;
+    height: fit-content;
 }
 #mySidebar > a{
     text-decoration: none;
@@ -94,6 +95,29 @@
     line-height: 2;
     padding: 3px;
 }
+#mySidebar > a > img{
+  margin-right: 10px;
+}
 .Mbody{
     display: flex;
+}
+.ululul2 > li {
+  list-style: none;
+  color: #fff;
+  padding: 5px;
+}
+.ululul2 > li > a{
+  text-decoration: none;
+  color: #fff;
+}
+.ululul2 > li > img{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  text-decoration: none;
+  color: #fff;
+  margin-right: 10px;
+}
+#mySidebar2{
+  width: 50%;
 }

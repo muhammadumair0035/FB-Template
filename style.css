@@ -5,15 +5,74 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+    border: 1px solid gray;
   }
   
   .landing-page > ul >  li {
     display: inline;
     padding: 10px 30px 10px 10px;
   }
+  .navlogo{
+    position: fixed;
+    left: 20px;
+  }
+  .navlogo2{
+    position: fixed;
+    left: 80px;
+  }
+  .navlogo3{
+    font-size: 35px;
+  }
+  .navlogo4 > img{
+    width: 30px !important;
+    height: 30px !important;
+    border-radius: 50% !important;
+    position: fixed;
+    right: 340px;
+  }
+  .navlogo4{
+    color: #fff;
+    position: fixed;
+    right: 258px;
+    line-height: 2;
+  }
+  .navlogo5 > i{
+    right: 234px;
+    top: 10px;
+    font-size: 35px !important;
+  }
+  .navlogo6 > i{
+    right: 180px;
+    top: 10px;
+    font-size: 35px !important;
+  }
+  .navlogo7 > i{
+    right: 126px;
+    top: 10px;
+    font-size: 35px !important;
+  }
+  .navlogo8 > i{
+    right: 80px;
+    top: 10px;
+    font-size: 35px !important;
+  }
   .landing-page > ul  > li > img{
-    width: 160px;
+    width: 50px;
+  }
+  .landing-page > ul  > li > i{
+    position: absolute;
+    padding-top: 13px;
+    padding-left: 14px;
+    font-size: 20px;
+    color: #848689;
 
+  }
+  .landing-page > ul  > li > input{
+    padding: 15px 15px 15px 45px;
+    background-color: #3a3b3c;
+    border: none;
+    border-radius: 50px;
+    font-weight: 900;
   }
   .landing-page > ul >  li > a{
     text-decoration: none;
@@ -31,6 +90,9 @@
 #mySidebar > a{
     text-decoration: none;
     color: white;
+    display: flex;
+    line-height: 2;
+    padding: 3px;
 }
 .Mbody{
     display: flex;

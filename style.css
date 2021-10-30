@@ -1,3 +1,9 @@
+.btttn > a{
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  text-decoration: none;
+}
 .landling-body{
     background-color: black;
 }
@@ -5,7 +11,8 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    border: 1px solid gray;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
   }
   
   .landing-page > ul >  li {
@@ -13,11 +20,11 @@
     padding: 10px 30px 10px 10px;
   }
   .navlogo{
-    position: fixed;
+    /* position: fixed; */
     left: 20px;
   }
   .navlogo2{
-    position: fixed;
+    /* position: fixed; */
     left: 80px;
   }
   .navlogo3{
@@ -27,12 +34,12 @@
     width: 30px !important;
     height: 30px !important;
     border-radius: 50% !important;
-    position: fixed;
+    /* position: fixed; */
     right: 340px;
   }
   .navlogo4{
     color: #fff;
-    position: fixed;
+    /* position: fixed; */
     right: 258px;
     line-height: 2;
   }
@@ -81,7 +88,7 @@
 .ululul{
     display: flex;
     align-items: center;
-    justify-content: center;
+    /* justify-content: center; */
 }
 #mySidebar{
     display: grid;

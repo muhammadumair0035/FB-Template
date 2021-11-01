@@ -7,14 +7,22 @@
 .landling-body{
     background-color: black;
 }
+.landing-page{
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
 .landing-page > ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
+    background-color: #000;
   }
-  
+  .Mbody{
+    padding-top: 80px;
+  }
   .landing-page > ul >  li {
     display: inline;
     padding: 10px 30px 10px 10px;
@@ -91,9 +99,9 @@
     /* justify-content: center; */
 }
 #mySidebar{
-    display: grid;
     width: 25%;
     height: fit-content;
+    position: fixed;
 }
 #mySidebar > a{
     text-decoration: none;
@@ -127,4 +135,21 @@
 }
 #mySidebar2{
   width: 50%;
+  margin-left: 310px;
+}
+#mySidebar3{
+  width: 25%;
+    height: fit-content;
+    position: fixed;
+    right: 0;
+}
+#mySidebar3 > a{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  line-height: 2;
+  padding: 3px;
+}
+#mySidebar3 > a > img{
+  margin-right: 10px;
 }
